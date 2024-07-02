@@ -1,11 +1,13 @@
 import "./styles.css";
 import PostList from "./components/PostList";
-export default function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
+    <div>
       <h1>Posts</h1>
       <PostList />
     </div>
   );
-}
+};
+
+export default App;
 

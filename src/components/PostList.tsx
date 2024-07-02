@@ -78,7 +78,7 @@ const PostList: React.FC = () => {
           }
         });
       })
-      .catch(<any>error => {
+      .catch((error) => {
         console.error('Error fetching posts:', error);
       });
   }, []);
